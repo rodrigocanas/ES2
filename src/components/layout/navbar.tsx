@@ -19,7 +19,7 @@ import { cn } from "@/lib/utils";
 
 const navLinks = [
   { href: "/", label: "Início" },
-  { href: "/sobre", label: "Sobre Nós" },
+  { href: "/aboutus", label: "Sobre Nós" },
   { href: "/quiz", label: "Quiz's" },
   { href: "/login", label: "Login" },
   { href: "/profile", label: "Perfil"}
