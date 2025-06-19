@@ -24,3 +24,11 @@ export interface ApiErrorResponse {
   message: string;
   errors?: { [key: string]: string[] | undefined }; // Para erros de validação Zod, por exemplo
 }
+
+export interface UserProfile {
+  name: string
+  email: string
+  avatarUrl?: string
+  bio?: string
+  location?: string
+}

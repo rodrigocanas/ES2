@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { CreateUserFormData, CreatedUser, CreateUserApiResponse, ApiErrorResponse } from '@/lib/types/user'; // Ajusta o caminho
+import { CreateUserFormData, CreatedUser, CreateUserApiResponse, ApiErrorResponse } from '@/lib/types/users'; // Ajusta o caminho
 
 interface UseCreateUserHook {
   createUser: (formData: CreateUserFormData) => Promise<void>;
