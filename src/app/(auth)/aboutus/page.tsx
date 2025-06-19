@@ -1,5 +1,4 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaDiscord, FaTwitter } from "react-icons/fa";
 
 const teamMembers = [
   {
@@ -44,12 +43,7 @@ export default function AboutUsPage() {
             />
             <h2 className="text-2xl font-bold mb-2">{member.name}</h2>
             <p className="text-gray-300 mb-4">{member.role}</p>
-            <div className="flex justify-center space-x-4 text-xl text-gray-400">
-              <FaGithub className="hover:text-white" />
-              <FaLinkedin className="hover:text-white" />
-              <FaDiscord className="hover:text-white" />
-              <FaTwitter className="hover:text-white" />
-            </div>
+            
           </div>
         ))}
       </main>
